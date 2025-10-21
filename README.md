@@ -81,7 +81,7 @@ nurture-frontend/
 *Interactive assessment form with range sliders and activity selection*
 
 ### Results Dashboard
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/health-result.png)
 *Health score visualization with pie charts and recommendations*
 
 ### History View
@@ -90,12 +90,22 @@ nurture-frontend/
 
 ## Demo
 
-[View Live Demo](https://your-demo-link.com)
+[View Live Demo](https://nurture-frontend.vercel.app/)
+
+## Deployment
+
+- **Frontend**: Deployed on Vercel
+- **Backend**: Deployed on Render
+- **Database**: MongoDB Atlas (Cloud)
 
 ## API Integration
 
-Connects to backend API at `http://localhost:5000/api`:
-- User authentication endpoints
+Connects to backend API:
+- **Local Development**: `http://localhost:5000/api`
+- **Production**: `https://nurture-backend-onc1.onrender.com/api`
+
+Endpoints:
+- User authentication (register/login)
 - Health assessment submission
 - Historical data retrieval
 - JWT token management
