@@ -53,7 +53,7 @@ const AppContent = () => {
                 <div className="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center">
                   <span className="text-gray-700 text-sm font-medium">{user.name.charAt(0).toUpperCase()}</span>
                 </div>
-                <span className="text-gray-700 font-medium">{user.name}</span>
+                <span className="text-gray-700 font-medium hidden sm:block">{user.name}</span>
               </div>
               
               <div className="flex space-x-1">
